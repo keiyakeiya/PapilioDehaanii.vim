@@ -1,0 +1,216 @@
+Full name: Papilio dehaanii
+Short name: papilio_dehaanii
+Author: Keiy <keiy.keiy.alpha@gmail.com>
+Neovim: yes
+
+Background: dark
+Variant: gui 256
+
+; Color palette
+Color:  mono0         #000000 ~
+Color:  monobg        #12151a ~
+Color:  mono1         #191f25 ~
+Color:  mono2         #404954 ~
+Color:  mono3         #566373 ~
+Color:  monofg        #a8b2bd ~
+
+Color:  tealM         #398f93 ~
+Color:  tealL         #84B1B6 ~
+Color:  tealD         #265257 ~
+
+Color:  blueM         #4a83d4 ~
+Color:  blueL         #8CABD7 ~
+Color:  blueD         #2E4C77 ~
+
+Color:  yellowM       #798b26 ~
+Color:  yellowL       #919F72 ~
+Color:  yellowD       #465020 ~
+
+Color:  purpleM       #8175da ~
+Color:  purpleL       #9594CC ~
+Color:  purpleD       #4A457A ~
+
+Color:  magentaM      #db40bf ~
+Color:  magentaL      #C279BE ~
+Color:  magentaD      #772B6D ~
+
+Color:  redM          #f3346b ~
+Color:  redL          #CE7394 ~
+Color:  redD          #832543 ~
+
+;
+Color: terminal_color_0  mono2 ~ ;black
+Color: terminal_color_1  redM ~ ;redM
+Color: terminal_color_2  blueL ~ ;blueL
+Color: terminal_color_3  yellowL ~ ;yellowM
+Color: terminal_color_4  tealL ~ ;blueM 
+Color: terminal_color_5  purpleL ~ ;magentaM
+Color: terminal_color_6  yellowM ~ ;cyan
+Color: terminal_color_7  tealM ~ ;white
+
+Color: terminal_color_8  mono2 ~ ;bright black
+Color: terminal_color_9  redL ~ ;bright redM
+Color: terminal_color_10 blueM ~ ;bright blueM
+Color: terminal_color_11 yellowM ~ ;bright yellowM
+Color: terminal_color_12 tealM ~ ;bright blueM
+Color: terminal_color_13 purpleM ~ ;bright magentaM
+Color: terminal_color_14 yellowL ~ ;bright cyan
+Color: terminal_color_15 blueL ~ ;bright white
+
+Term colors: terminal_color_0 terminal_color_1 terminal_color_2 terminal_color_3
+Term colors: terminal_color_4 terminal_color_5 terminal_color_6 terminal_color_7
+Term colors: terminal_color_8 terminal_color_9 terminal_color_10 terminal_color_11
+Term colors: terminal_color_12 terminal_color_13 terminal_color_14 terminal_color_15
+
+; Group              Foreground          Background        Attributes
+Normal               monofg              monobg
+Terminal             monofg              monobg
+Pmenu                none                mono1
+PmenuSel             monobg              tealM
+SpellBad             none                none              undercurl s=redL
+SpellCap             none                none              undercurl s=yellowL
+SpellLocal           none                none              undercurl s=yellowL
+SpellRare            none                none              undercurl s=yellowL
+StatusLineTerm       monobg              tealL             bold
+StatusLineTermNC     mono3               mono1
+TabLine              mono3               monobg            underline
+TabLineFill          none                mono1
+TabLineSel           monobg              blueL             bold
+Ignore               mono0               none
+Todo                 monobg              yellowM
+ColorColumn          none                mono1
+Conceal              mono2               none
+; NOTE: Vim's default does not define Cursor/lCursor in the terminal
+Cursor               monobg              magentaM
+CursorColumn         none                mono1
+CursorLine           none                mono1
+CursorLineNr         monobg              blueL             g=bold
+LineNr               blueM               mono1
+DiffAdd              none                tealD
+DiffChange           none                magentaD
+DiffDelete           mono0               mono2             g=bold
+DiffText             monofg              redD              bold
+Directory            blueM               none
+ErrorMsg             monofg              redD
+EndOfBuffer          mono2               none
+FoldColumn           mono1               mono3 ;???
+Folded               mono1               mono3 ;???
+MatchParen           monobg              magentaL
+ModeMsg              mono3               none              bold
+MoreMsg              tealM               none              g=bold
+PmenuSbar            none                mono3 
+PmenuThumb           none                monofg
+Question             tealM               monobg            g=bold
+Search               monobg              blueL
+CurSearch            monobg              magentaL          g=bold
+SignColumn           tealM               mono1
+SpecialKey           mono2               none
+NonText              mono2               none
+StatusLine           mono3               monobg            reverse,bold
+StatusLineNC         mono1               mono3             reverse
+Title                tealM               none              g=bold
+VertSplit            mono0               mono0
+Visual               none                mono3
+VisualNOS            none                none              underline,bold
+WarningMsg           redM                none
+WildMenu             monobg              tealM
+; Other conventional group names (see `:help group-name`)
+Comment              mono2               none
+Error                redM                mono1
+Constant             blueL               none
+Identifier           tealM               none              t=bold
+Function             blueL               none
+PreProc              tealM               none
+Special              tealL               none
+Statement            tealM               none              g=bold
+Type                 blueM               none              g=bold
+String               blueM               none              g=bold
+Boolean              blueM               none              g=bold
+Underlined           monofg              none              underline
+;;; See `:help lCursor`
+;;lCursor           -> Cursor
+;;; See `:help window-toolbar`
+;;  TermCursorNC
+;ToolbarLine          none                mono2
+;ToolbarButton        mono1               mono4         bold
+; HTML
+htmlTag                    blueM         none
+htmlEndTag                 blueM         none
+htmlTagName                blueL         none
+htmlArg                    tealM         none
+htmlString                 monofg        none
+; Kotlin
+ktType                     tealM         none
+ktString                   tealL         none
+; Coc
+CocMenuSel -> PmenuSel
+CocWarningFloat            yellowM       none
+DiagnosticWarn             yellowM       none
+DiagnosticSignWarn         yellowM       none
+DiagnosticVirtualTextWarn  yellowM       none
+; GitGutter
+GitGutterAdd               tealM         none
+GitGutterChange            blueM         none
+GitGutterDelete            mono3         none
+;
+;air-line
+auxfile autoload/airline/themes/@shortname.vim
+scriptencoding utf-8
+
+let g:airline#themes#@shortname#palette = {}
+
+
+let s:airline_a_normal   = ['@guitealM', '@guimono1', '@term256tealM', '@term256mono1']
+let s:airline_b_normal   = ['@guimono1', '@guitealM', '@term256mono1', '@term256tealM']
+let s:airline_c_normal   = ['@guitealD', '@guimono1', '@term256tealD', '@term256mono1']
+let g:airline#themes#@shortname#palette.normal = airline#themes#generate_color_map(s:airline_a_normal, s:airline_b_normal, s:airline_c_normal)
+
+let s:airline_a_insert   = ['@guiblueM', '@guimono1', '@term256blueM', '@term256mono1']
+let s:airline_b_insert   = ['@guimono1', '@guiblueM', '@term256mono1', '@term256blueM']
+let s:airline_c_insert   = ['@guiblueD', '@guimono1', '@term256blueD', '@term256mono1']
+let g:airline#themes#@shortname#palette.insert = airline#themes#generate_color_map(s:airline_a_insert, s:airline_b_insert, s:airline_c_insert)
+
+let s:airline_a_replace   = ['@guimono1', '@guiblueM', '@term256mono1', '@term256blueM']
+let s:airline_b_replace   = ['@guiblueM', '@guimono1', '@term256blueM', '@term256mono1']
+let s:airline_c_replace   = ['@guimono1', '@guiblueD', '@term256mono1', '@term256blueD']
+let g:airline#themes#@shortname#palette.replace = airline#themes#generate_color_map(s:airline_a_replace, s:airline_b_replace, s:airline_c_replace)
+
+let s:airline_a_visual   = ['@guiblueL', '@guimono1', '@term256blueL', '@term256mono1']
+let s:airline_b_visual   = ['@guimono1', '@guiblueL', '@term256mono1', '@term256blueL']
+let s:airline_c_visual   = ['@guiblueD', '@guimono1', '@term256blueD', '@term256mono1']
+let g:airline#themes#@shortname#palette.visual = airline#themes#generate_color_map(s:airline_a_visual, s:airline_b_visual, s:airline_c_visual)
+
+let s:airline_a_inactive   = ['@guiblueD', '@guimono0', '@term256blueD', '@term256mono0']
+let s:airline_b_inactive   = ['@guimonobg', '@guimono3', '@term256monobg', '@term256mono3']
+let s:airline_c_inactive   = ['@guiblueD', '@guimono0', '@term256blueD', '@term256mono0']
+let g:airline#themes#@shortname#palette.inactive = airline#themes#generate_color_map(s:airline_a_inactive, s:airline_b_inactive, s:airline_c_inactive)
+
+let s:airline_a_terminal   = ['@guitealL', '@guimonobg', '@term256tealL', '@term256monobg']
+let s:airline_b_terminal   = [ '@guimono1', '@guitealL',  '@term256mono1', '@term256tealL']
+let s:airline_c_terminal   = ['@guimono3', '@guimono1', '@term256mono3', '@term256mono1']
+let g:airline#themes#@shortname#palette.terminal = airline#themes#generate_color_map(s:airline_a_terminal, s:airline_b_terminal, s:airline_c_terminal)
+
+let s:airline_a_commandline   = ['@guitealM', '@guimono1', '@term256tealM', '@term256mono1']
+let s:airline_b_commandline   = ['@guimono1', '@guitealM', '@term256mono1', '@term256tealM']
+let s:airline_c_commandline   = ['@guimono1', '@guitealD', '@term256mono1', '@term256tealD']
+let g:airline#themes#@shortname#palette.commandline = airline#themes#generate_color_map(s:airline_a_commandline, s:airline_b_commandline, s:airline_c_commandline)
+
+
+let g:airline#themes#@shortname#palette.normal.airline_warning      = ['@guimonobg', '@guiyellowL', '@term256monobg', '@term256yellowL']
+let g:airline#themes#@shortname#palette.insert.airline_warning      = ['@guimonobg', '@guiyellowL', '@term256monobg', '@term256yellowL']
+let g:airline#themes#@shortname#palette.replace.airline_warning     = ['@guimonobg', '@guiyellowL', '@term256monobg', '@term256yellowL']
+let g:airline#themes#@shortname#palette.visual.airline_warning      = ['@guimonobg', '@guiyellowL', '@term256monobg', '@term256yellowL']
+let g:airline#themes#@shortname#palette.inactive.airline_warning    = ['@guimonobg', '@guiyellowL', '@term256monobg', '@term256yellowL']
+let g:airline#themes#@shortname#palette.terminal.airline_warning    = ['@guimonobg', '@guiyellowL', '@term256monobg', '@term256yellowL']
+let g:airline#themes#@shortname#palette.commandline.airline_warning = ['@guimonobg', '@guiyellowL', '@term256monobg', '@term256yellowL']
+
+let g:airline#themes#@shortname#palette.normal.airline_error      = ['@guimonobg', '@guiredL', '@term256monobg', '@term256redL']
+let g:airline#themes#@shortname#palette.insert.airline_error      = ['@guimonobg', '@guiredL', '@term256monobg', '@term256redL']
+let g:airline#themes#@shortname#palette.replace.airline_error     = ['@guimonobg', '@guiredL', '@term256monobg', '@term256redL']
+let g:airline#themes#@shortname#palette.visual.airline_error      = ['@guimonobg', '@guiredL', '@term256monobg', '@term256redL']
+let g:airline#themes#@shortname#palette.inactive.airline_error    = ['@guimonobg', '@guiredL', '@term256monobg', '@term256redL']
+let g:airline#themes#@shortname#palette.terminal.airline_error    = ['@guimonobg', '@guiredL', '@term256monobg', '@term256redL']
+let g:airline#themes#@shortname#palette.commandline.airline_error = ['@guimonobg', '@guiredL', '@term256monobg', '@term256redL']
+
+
+endauxfile
