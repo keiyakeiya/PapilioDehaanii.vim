@@ -13,10 +13,10 @@
 - Color scheme for Vim and Neovim
 - Airline support
     ![Airline-Normal](./imgs/airline-normal.jpg)
-    ![Airline-Command](./imgs/airline-command.jpg)
     ![Airline-Insert](./imgs/airline-insert.jpg)
-    ![Airline-Replace](./imgs/airline-replace.jpg)
     ![Airline-Visual](./imgs/airline-visual.jpg)
+    ![Airline-Command](./imgs/airline-command.jpg)
+    ![Airline-Replace](./imgs/airline-replace.jpg)
     ![Airline-Inactive](./imgs/airline-inactive.jpg)
 - Terminal color support
 
