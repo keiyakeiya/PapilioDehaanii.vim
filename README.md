@@ -36,5 +36,4 @@ colorscheme papilio_dehaanii
 ```
 
 ## License
-MIT License.  
-See [LICENSE](https://github.com/keiyakeiya/PapilioDehaanii.vim/blob/main/LICENSE)
+MIT License. See [LICENSE](https://github.com/keiyakeiya/PapilioDehaanii.vim/blob/main/LICENSE)
