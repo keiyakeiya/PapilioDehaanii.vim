@@ -1,8 +1,8 @@
 # PapilioDehaanii.vim
 
-![GitHub](https://img.shields.io/github/license/keiyakeiya/PapilioDehaanii.vim?color=%234a83d4)
-![GitHub repo size](https://img.shields.io/github/repo-size/keiyakeiya/PapilioDehaanii.vim?color=%238CABD7)
-![GitHub last commit (by committer)](https://img.shields.io/github/last-commit/keiyakeiya/PapilioDehaanii.vim?display_timestamp=committer&color=%23398f93)
+![GitHub](https://img.shields.io/github/license/keiyakeiya/PapilioDehaanii.vim?color=4a83d4)
+![GitHub repo size](https://img.shields.io/github/repo-size/keiyakeiya/PapilioDehaanii.vim?color=8CABD7)
+![GitHub last commit (by committer)](https://img.shields.io/github/last-commit/keiyakeiya/PapilioDehaanii.vim?display_timestamp=committer&color=398f93)
 
 
 
