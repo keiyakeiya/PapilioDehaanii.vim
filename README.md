@@ -8,15 +8,15 @@
 
 ## Features
 
-- Duotone color scheme for Vim and Neovim
-    ![Code example](./imgs/code_samples.png)
+- Color scheme for Vim and Neovim
+  ![Neovim screenshot](./imgs/screenshot.jpg)
 - Airline support
-    ![Airline-Normal](./imgs/airline-normal.jpg)
-    ![Airline-Insert](./imgs/airline-insert.jpg)
-    ![Airline-Visual](./imgs/airline-visual.jpg)
-    ![Airline-Command](./imgs/airline-command.jpg)
-    ![Airline-Replace](./imgs/airline-replace.jpg)
-    ![Airline-Inactive](./imgs/airline-inactive.jpg)
+  ![Airline-Normal](./imgs/airline-normal.jpg)
+  ![Airline-Insert](./imgs/airline-insert.jpg)
+  ![Airline-Visual](./imgs/airline-visual.jpg)
+  ![Airline-Command](./imgs/airline-command.jpg)
+  ![Airline-Replace](./imgs/airline-replace.jpg)
+  ![Airline-Inactive](./imgs/airline-inactive.jpg)
 - Terminal color support
 
 ## Installation
