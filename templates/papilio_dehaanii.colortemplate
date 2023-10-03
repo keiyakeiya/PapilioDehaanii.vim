@@ -1,66 +1,50 @@
-Full name: Papilio dehaanii
+Full name: PapilioDehaanii
 Short name: papilio_dehaanii
 Author: Keiy <keiy.keiy.alpha@gmail.com>
+URL: https://github.com/keiyakeiya/PapilioDehaanii.vim/
 Neovim: yes
 
 Background: dark
 Variant: gui 256
 
 ; Color palette
-Color:  mono0         #000000 ~
-Color:  monobg        #12151a ~
-Color:  mono1         #191f25 ~
-Color:  mono2         #404954 ~
-Color:  mono3         #566373 ~
-Color:  monofg        #a8b2bd ~
+Color:  mono0     #000000 ~
+Color:  monobg    #12151a ~
+Color:  mono1     #191f25 ~
+Color:  mono2     #404954 ~
+Color:  mono3     #566373 ~
+Color:  monofg    #a8b2bd ~
 
-Color:  tealM         #398f93 ~
-Color:  tealL         #84B1B6 ~
-Color:  tealD         #265257 ~
+Color:  tealM     #398f93 ~
+Color:  tealL     #84B1B6 ~
+Color:  tealD     #265257 ~
 
-Color:  blueM         #4a83d4 ~
-Color:  blueL         #8CABD7 ~
-Color:  blueD         #2E4C77 ~
+Color:  blueM     #4a83d4 ~
+Color:  blueL     #8CABD7 ~
+Color:  blueD     #2E4C77 ~
 
-Color:  yellowM       #798b26 ~
-Color:  yellowL       #919F72 ~
-Color:  yellowD       #465020 ~
+Color:  yellowM   #798b26 ~
+Color:  yellowL   #919F72 ~
+Color:  yellowD   #465020 ~
 
-Color:  purpleM       #8175da ~
-Color:  purpleL       #9594CC ~
-Color:  purpleD       #4A457A ~
+Color:  purpleM   #8175da ~
+Color:  purpleL   #9594CC ~
+Color:  purpleD   #4A457A ~
 
-Color:  magentaM      #db40bf ~
-Color:  magentaL      #C279BE ~
-Color:  magentaD      #772B6D ~
+Color:  magentaM  #db40bf ~
+Color:  magentaL  #C279BE ~
+Color:  magentaD  #772B6D ~
 
-Color:  redM          #f3346b ~
-Color:  redL          #CE7394 ~
-Color:  redD          #832543 ~
+Color:  redM      #f3346b ~
+Color:  redL      #CE7394 ~
+Color:  redD      #832543 ~
 
-;
-Color: terminal_color_0  mono2 ~ ;black
-Color: terminal_color_1  redM ~ ;redM
-Color: terminal_color_2  blueL ~ ;blueL
-Color: terminal_color_3  yellowL ~ ;yellowM
-Color: terminal_color_4  tealL ~ ;blueM 
-Color: terminal_color_5  purpleL ~ ;magentaM
-Color: terminal_color_6  yellowM ~ ;cyan
-Color: terminal_color_7  tealM ~ ;white
 
-Color: terminal_color_8  mono2 ~ ;bright black
-Color: terminal_color_9  redL ~ ;bright redM
-Color: terminal_color_10 blueM ~ ;bright blueM
-Color: terminal_color_11 yellowM ~ ;bright yellowM
-Color: terminal_color_12 tealM ~ ;bright blueM
-Color: terminal_color_13 purpleM ~ ;bright magentaM
-Color: terminal_color_14 yellowL ~ ;bright cyan
-Color: terminal_color_15 blueL ~ ;bright white
+Term colors: mono2 redL blueM yellowM
+Term colors: tealM purpleM yellowL blueL
+Term colors: mono2 redM blueL yellowL
+Term colors: tealL purpleL yellowM tealM
 
-Term colors: terminal_color_0 terminal_color_1 terminal_color_2 terminal_color_3
-Term colors: terminal_color_4 terminal_color_5 terminal_color_6 terminal_color_7
-Term colors: terminal_color_8 terminal_color_9 terminal_color_10 terminal_color_11
-Term colors: terminal_color_12 terminal_color_13 terminal_color_14 terminal_color_15
 
 ; Group              Foreground          Background        Attributes
 Normal               monofg              monobg
@@ -71,8 +55,8 @@ SpellBad             none                none              undercurl s=redL
 SpellCap             none                none              undercurl s=yellowL
 SpellLocal           none                none              undercurl s=yellowL
 SpellRare            none                none              undercurl s=yellowL
-StatusLineTerm       monobg              tealL             bold
-StatusLineTermNC     mono3               mono1
+StatusLineTerm       tealL               monobg            bold
+StatusLineTermNC     tealD               mono1
 TabLine              mono3               monobg            underline
 TabLineFill          none                mono1
 TabLineSel           monobg              blueL             bold
@@ -93,17 +77,17 @@ DiffText             monofg              redD              bold
 Directory            blueM               none
 ErrorMsg             monofg              redD
 EndOfBuffer          mono2               none
-FoldColumn           mono1               mono3 ;???
-Folded               mono1               mono3 ;???
+FoldColumn           blueL               mono1
+Folded               blueM               mono2
 MatchParen           monobg              magentaL
-ModeMsg              mono3               none              bold
+ModeMsg              blueD               none              bold
 MoreMsg              tealM               none              g=bold
 PmenuSbar            none                mono3 
 PmenuThumb           none                monofg
 Question             tealM               monobg            g=bold
 Search               monobg              blueL
 CurSearch            monobg              magentaL          g=bold
-SignColumn           tealM               mono1
+SignColumn           monofg              mono1
 SpecialKey           mono2               none
 NonText              mono2               none
 StatusLine           mono3               monobg            reverse,bold
@@ -121,7 +105,7 @@ Constant             blueL               none
 Identifier           tealM               none              t=bold
 Function             blueL               none
 PreProc              tealM               none
-Special              tealL               none
+Special              blueL               none
 Statement            tealM               none              g=bold
 Type                 blueM               none              g=bold
 String               blueM               none              g=bold
@@ -141,7 +125,7 @@ htmlArg                    tealM         none
 htmlString                 monofg        none
 ; Kotlin
 ktType                     tealM         none
-ktString                   tealL         none
+ktString                   blueL         none
 ; Coc
 CocMenuSel -> PmenuSel
 CocWarningFloat            yellowM       none
@@ -185,8 +169,8 @@ let s:airline_b_inactive   = ['@guimonobg', '@guimono3', '@term256monobg', '@ter
 let s:airline_c_inactive   = ['@guiblueD', '@guimono0', '@term256blueD', '@term256mono0']
 let g:airline#themes#@shortname#palette.inactive = airline#themes#generate_color_map(s:airline_a_inactive, s:airline_b_inactive, s:airline_c_inactive)
 
-let s:airline_a_terminal   = ['@guitealL', '@guimonobg', '@term256tealL', '@term256monobg']
-let s:airline_b_terminal   = [ '@guimono1', '@guitealL',  '@term256mono1', '@term256tealL']
+let s:airline_a_terminal   = ['@guitealD', '@guimonobg', '@term256tealD', '@term256monobg']
+let s:airline_b_terminal   = ['@guimono1', '@guitealD',  '@term256mono1', '@term256tealD']
 let s:airline_c_terminal   = ['@guimono3', '@guimono1', '@term256mono3', '@term256mono1']
 let g:airline#themes#@shortname#palette.terminal = airline#themes#generate_color_map(s:airline_a_terminal, s:airline_b_terminal, s:airline_c_terminal)
 
@@ -211,6 +195,5 @@ let g:airline#themes#@shortname#palette.visual.airline_error      = ['@guimonobg
 let g:airline#themes#@shortname#palette.inactive.airline_error    = ['@guimonobg', '@guiredL', '@term256monobg', '@term256redL']
 let g:airline#themes#@shortname#palette.terminal.airline_error    = ['@guimonobg', '@guiredL', '@term256monobg', '@term256redL']
 let g:airline#themes#@shortname#palette.commandline.airline_error = ['@guimonobg', '@guiredL', '@term256monobg', '@term256redL']
-
 
 endauxfile

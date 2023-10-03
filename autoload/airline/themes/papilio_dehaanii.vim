@@ -28,8 +28,8 @@ let s:airline_b_inactive   = ['#12151a', '#566373', '233', '241']
 let s:airline_c_inactive   = ['#2e4c77', '#000000', '25', '16']
 let g:airline#themes#papilio_dehaanii#palette.inactive = airline#themes#generate_color_map(s:airline_a_inactive, s:airline_b_inactive, s:airline_c_inactive)
 
-let s:airline_a_terminal   = ['#84b1b6', '#12151a', '109', '233']
-let s:airline_b_terminal   = [ '#191f25', '#84b1b6',  '234', '109']
+let s:airline_a_terminal   = ['#265257', '#12151a', '23', '233']
+let s:airline_b_terminal   = ['#191f25', '#265257',  '234', '23']
 let s:airline_c_terminal   = ['#566373', '#191f25', '241', '234']
 let g:airline#themes#papilio_dehaanii#palette.terminal = airline#themes#generate_color_map(s:airline_a_terminal, s:airline_b_terminal, s:airline_c_terminal)
 
@@ -54,5 +54,4 @@ let g:airline#themes#papilio_dehaanii#palette.visual.airline_error      = ['#121
 let g:airline#themes#papilio_dehaanii#palette.inactive.airline_error    = ['#12151a', '#ce7394', '233', '168']
 let g:airline#themes#papilio_dehaanii#palette.terminal.airline_error    = ['#12151a', '#ce7394', '233', '168']
 let g:airline#themes#papilio_dehaanii#palette.commandline.airline_error = ['#12151a', '#ce7394', '233', '168']
-
 
