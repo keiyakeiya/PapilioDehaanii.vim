@@ -127,7 +127,7 @@ htmlString                 monofg        none
 ktType                     tealM         none
 ktString                   blueL         none
 ; vim
-vimVar                     monofg         none 
+vimVar                     monofg        none
 ; Coc
 CocMenuSel -> PmenuSel
 CocWarningFloat            yellowM       none
