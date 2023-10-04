@@ -104,7 +104,7 @@ Error                redM                mono1
 Constant             blueL               none
 Identifier           tealM               none              t=bold
 Function             blueL               none
-PreProc              monofg               none
+PreProc              blueL               none
 Special              blueL               none
 Statement            tealM               none              g=bold
 Type                 blueM               none              g=bold
@@ -126,6 +126,8 @@ htmlString                 monofg        none
 ; Kotlin
 ktType                     tealM         none
 ktString                   blueL         none
+; vim
+vimVar                     monofg         none 
 ; Coc
 CocMenuSel -> PmenuSel
 CocWarningFloat            yellowM       none
