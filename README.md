@@ -4,19 +4,19 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/keiyakeiya/PapilioDehaanii.vim?color=8CABD7)
 ![GitHub last commit (by committer)](https://img.shields.io/github/last-commit/keiyakeiya/PapilioDehaanii.vim?display_timestamp=committer&color=398f93)
 
-![PapilioDehaanii](./imgs/papiliodehaanii.jpg)
+![PapilioDehaanii](https://github.com/keiyakeiya/PapilioDehaanii.vim/assets/75249966/d5cd79f1-0ce0-4504-b60a-c8558b81afe3)
 
 ## Features
 
 - Color scheme for Vim and Neovim
-  ![Neovim screenshot](./imgs/screenshot.jpg)
+  ![Neovim screenshot](https://github.com/keiyakeiya/PapilioDehaanii.vim/assets/75249966/04d88914-c266-42fa-bc76-606670039bb6)
 - Airline support
-  ![Airline-Normal](./imgs/airline-normal.jpg)
-  ![Airline-Insert](./imgs/airline-insert.jpg)
-  ![Airline-Visual](./imgs/airline-visual.jpg)
-  ![Airline-Command](./imgs/airline-command.jpg)
-  ![Airline-Replace](./imgs/airline-replace.jpg)
-  ![Airline-Inactive](./imgs/airline-inactive.jpg)
+  ![Airline-Normal](https://github.com/keiyakeiya/PapilioDehaanii.vim/assets/75249966/43d9a4ba-4a44-4f99-b259-9ddbcb252319)
+  ![Airline-Insert](https://github.com/keiyakeiya/PapilioDehaanii.vim/assets/75249966/b46dacf5-0ed5-4ecf-8c68-30daf21b144c)
+  ![Airline-Visual](https://github.com/keiyakeiya/PapilioDehaanii.vim/assets/75249966/fb245336-13c3-4063-a6b1-3efc63e4d42c)
+  ![Airline-Command](https://github.com/keiyakeiya/PapilioDehaanii.vim/assets/75249966/02e225d9-86fe-44a8-9f79-5b2ee79b7bba)
+  ![Airline-Replace](https://github.com/keiyakeiya/PapilioDehaanii.vim/assets/75249966/54604167-129a-40ed-8220-66391308e016)
+  ![Airline-Inactive](https://github.com/keiyakeiya/PapilioDehaanii.vim/assets/75249966/c045abcf-f07f-40dc-bbaf-5a1c985a0b9f)
 - Terminal color support
 
 ## Installation
