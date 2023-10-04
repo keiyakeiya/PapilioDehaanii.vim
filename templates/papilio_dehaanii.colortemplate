@@ -104,7 +104,7 @@ Error                redM                mono1
 Constant             blueL               none
 Identifier           tealM               none              t=bold
 Function             blueL               none
-PreProc              tealM               none
+PreProc              monofg               none
 Special              blueL               none
 Statement            tealM               none              g=bold
 Type                 blueM               none              g=bold
@@ -133,9 +133,9 @@ DiagnosticWarn             yellowM       none
 DiagnosticSignWarn         yellowM       none
 DiagnosticVirtualTextWarn  yellowM       none
 ; GitGutter
-GitGutterAdd               tealM         none
-GitGutterChange            blueM         none
-GitGutterDelete            mono3         none
+GitGutterAdd               tealM         mono1
+GitGutterChange            blueM         mono1
+GitGutterDelete            mono3         mono1
 ;
 ;air-line
 auxfile autoload/airline/themes/@shortname.vim
