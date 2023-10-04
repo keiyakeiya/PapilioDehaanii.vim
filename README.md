@@ -34,6 +34,10 @@ call dein#add('keiyakeiya/PapilioDehaanii.vim')
 colorscheme papilio_dehaanii
 ```
 
+```vim
+AirlineTheme papilio_dehaanii
+```
+
 ## License
 
 MIT License. See [LICENSE](https://github.com/keiyakeiya/PapilioDehaanii.vim/blob/main/LICENSE)
