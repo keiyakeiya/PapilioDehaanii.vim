@@ -131,6 +131,12 @@ cssClassNameDot            tealM        none
 cssBraces                  monofg       none
 cssProp                    monofg       none
 cssAttr                    blueM        none
+; sass
+sassId                     blueM        none
+sassIdChar                 blueM        none
+sassClass                  tealM        none
+sassClassChar              tealM        none
+sassVariable               tealL        none
 ; Kotlin
 ktType                     tealM         none
 ktString                   blueL         none
