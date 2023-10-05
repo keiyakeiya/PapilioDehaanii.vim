@@ -123,6 +123,14 @@ htmlEndTag                 blueM         none
 htmlTagName                blueL         none
 htmlArg                    tealM         none
 htmlString                 monofg        none
+; CSS
+cssTagName                 blueL        none
+cssIdentifier              blueM        none
+cssClassName               tealM        none
+cssClassNameDot            tealM        none
+cssBraces                  monofg       none
+cssProp                    monofg       none
+cssAttr                    blueM        none
 ; Kotlin
 ktType                     tealM         none
 ktString                   blueL         none
@@ -138,8 +146,8 @@ DiagnosticVirtualTextWarn  yellowM       none
 GitGutterAdd               tealM         mono1
 GitGutterChange            blueM         mono1
 GitGutterDelete            mono3         mono1
-;
-;air-line
+
+; air-line
 auxfile autoload/airline/themes/@shortname.vim
 scriptencoding utf-8
 
