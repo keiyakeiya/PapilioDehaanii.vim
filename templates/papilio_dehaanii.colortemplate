@@ -65,7 +65,7 @@ Todo                 monobg              yellowM
 ColorColumn          none                mono1
 Conceal              mono2               none
 ; NOTE: Vim's default does not define Cursor/lCursor in the terminal
-Cursor               monobg              magentaM
+Cursor               monobg              monofg
 CursorColumn         none                mono1
 CursorLine           none                mono1
 CursorLineNr         monobg              blueL             g=bold
@@ -79,14 +79,14 @@ ErrorMsg             monofg              redD
 EndOfBuffer          mono2               none
 FoldColumn           blueL               mono1
 Folded               blueM               mono2
-MatchParen           monobg              magentaL
+MatchParen           monobg              magentaM
 ModeMsg              blueD               none              bold
 MoreMsg              tealM               none              g=bold
 PmenuSbar            none                mono3 
 PmenuThumb           none                monofg
 Question             tealM               monobg            g=bold
 Search               monobg              blueL
-CurSearch            monobg              magentaL          g=bold
+CurSearch            monobg              magentaM          g=bold
 SignColumn           monofg              mono1
 SpecialKey           mono2               none
 NonText              mono2               none
