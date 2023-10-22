@@ -9,7 +9,7 @@
 ## Features
 
 - Color scheme for Vim and Neovim
-  ![Neovim screenshot](https://github.com/keiyakeiya/PapilioDehaanii.vim/assets/75249966/09d69b73-8b53-44c6-aba3-ae6bfb5d71a3)
+  ![Neovim screenshot](https://github.com/keiyakeiya/PapilioDehaanii.vim/assets/75249966/c268f17d-7b12-4539-b987-926df94eff13)
 
 - [Airline](https://github.com/vim-airline/vim-airline) support
   ![Airline-Normal](https://github.com/keiyakeiya/PapilioDehaanii.vim/assets/75249966/43d9a4ba-4a44-4f99-b259-9ddbcb252319)
