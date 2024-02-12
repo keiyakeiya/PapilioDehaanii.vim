@@ -124,36 +124,45 @@ htmlTagName                blueL         none
 htmlArg                    tealM         none
 htmlString                 monofg        none
 ; CSS
-cssTagName                 blueL        none
-cssIdentifier              blueM        none
-cssClassName               tealM        none
-cssClassNameDot            tealM        none
-cssBraces                  monofg       none
-cssProp                    monofg       none
-cssAttr                    blueM        none
+cssTagName                 blueL         none
+cssIdentifier              blueM         none
+cssClassName               tealM         none
+cssClassNameDot            tealM         none
+cssBraces                  monofg        none
+cssProp                    monofg        none
+cssAttr                    blueM         none
 ; sass
-sassId                     blueM        none
-sassIdChar                 blueM        none
-sassClass                  tealM        none
-sassClassChar              tealM        none
-sassVariable               tealL        none
-; Kotlin
+sassId                     blueM         none
+sassIdChar                 blueM         none
+sassClass                  tealM         none
+sassClassChar              tealM         none
+sassVariable               tealL         none
+; Kotlin (https://github.com/udalov/kotlin-vim)
 ktType                     tealM         none
 ktString                   blueL         none
+; GLSL
+glslQualifier              tealM         none              g=bold
+glslType                   blueM         none              g=bold
+glslBuileinVariable        tealL         none
+glslSwizzle                blueM         none
+glslDefine                 blueD         none
+glslPreProc                blueD         none
+; Java
+javaStorageClass           tealM         none              g=bold
 ; vim
 vimVar                     monofg        none
-; Coc
+; coc.nvim (https://github.com/neoclide/coc.nvim)
 CocMenuSel -> PmenuSel
 CocWarningFloat            yellowM       none
 DiagnosticWarn             yellowM       none
 DiagnosticSignWarn         yellowM       none
 DiagnosticVirtualTextWarn  yellowM       none
-; GitGutter
+; vim-gitgutter (https://github.com/airblade/vim-gitgutter)
 GitGutterAdd               tealM         mono1
 GitGutterChange            blueM         mono1
 GitGutterDelete            mono3         mono1
 
-; air-line
+; vim-airline (https://github.com/vim-airline/vim-airline)
 auxfile autoload/airline/themes/@shortname.vim
 scriptencoding utf-8
 
