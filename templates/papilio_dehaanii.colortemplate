@@ -82,7 +82,7 @@ Folded               blueM               mono2
 MatchParen           monobg              magentaM
 ModeMsg              blueD               none              bold
 MoreMsg              tealM               none              g=bold
-PmenuSbar            none                mono3 
+PmenuSbar            none                mono3
 PmenuThumb           none                monofg
 Question             tealM               monobg            g=bold
 Search               monobg              blueL
@@ -90,14 +90,17 @@ CurSearch            monobg              magentaM          g=bold
 SignColumn           monofg              mono1
 SpecialKey           mono2               none
 NonText              mono2               none
-StatusLine           mono3               monobg            reverse,bold
+StatusLine           monobg              mono3             reverse,bold
 StatusLineNC         mono1               mono3             reverse
 Title                tealM               none              g=bold
+ToolbarLine          none                mono1
+ToolbarButton        monofg              mono2             bold
 VertSplit            mono0               mono0
 Visual               none                mono3
 VisualNOS            none                none              underline,bold
 WarningMsg           redM                none
 WildMenu             monobg              tealM
+WinSeparator         mono0               mono0
 ; Other conventional group names (see `:help group-name`)
 Comment              mono2               none
 Error                redM                mono1
@@ -113,10 +116,7 @@ Boolean              blueM               none              g=bold
 Underlined           monofg              none              underline
 ;;; See `:help lCursor`
 ;;lCursor           -> Cursor
-;;; See `:help window-toolbar`
 ;;  TermCursorNC
-;ToolbarLine          none                mono2
-;ToolbarButton        mono1               mono4         bold
 ; HTML
 htmlTag                    blueM         none
 htmlEndTag                 blueM         none
@@ -149,6 +149,8 @@ glslDefine                 blueD         none
 glslPreProc                blueD         none
 ; Java
 javaStorageClass           tealM         none              g=bold
+javaConceptKind            tealM         none              g=bold
+javaOperator               tealM         none              g=bold
 ; vim
 vimVar                     monofg        none
 ; coc.nvim (https://github.com/neoclide/coc.nvim)
@@ -171,22 +173,22 @@ let g:airline#themes#@shortname#palette = {}
 
 let s:airline_a_normal   = ['@guitealM', '@guimono1', '@term256tealM', '@term256mono1']
 let s:airline_b_normal   = ['@guimono1', '@guitealM', '@term256mono1', '@term256tealM']
-let s:airline_c_normal   = ['@guitealD', '@guimono1', '@term256tealD', '@term256mono1']
+let s:airline_c_normal   = ['@guitealM', '@guimono1', '@term256tealM', '@term256mono1']
 let g:airline#themes#@shortname#palette.normal = airline#themes#generate_color_map(s:airline_a_normal, s:airline_b_normal, s:airline_c_normal)
 
 let s:airline_a_insert   = ['@guiblueM', '@guimono1', '@term256blueM', '@term256mono1']
 let s:airline_b_insert   = ['@guimono1', '@guiblueM', '@term256mono1', '@term256blueM']
-let s:airline_c_insert   = ['@guiblueD', '@guimono1', '@term256blueD', '@term256mono1']
+let s:airline_c_insert   = ['@guiblueM', '@guimono1', '@term256blueM', '@term256mono1']
 let g:airline#themes#@shortname#palette.insert = airline#themes#generate_color_map(s:airline_a_insert, s:airline_b_insert, s:airline_c_insert)
 
 let s:airline_a_replace   = ['@guimono1', '@guiblueM', '@term256mono1', '@term256blueM']
 let s:airline_b_replace   = ['@guiblueM', '@guimono1', '@term256blueM', '@term256mono1']
-let s:airline_c_replace   = ['@guimono1', '@guiblueD', '@term256mono1', '@term256blueD']
+let s:airline_c_replace   = ['@guimono1', '@guiblueM', '@term256mono1', '@term256blueM']
 let g:airline#themes#@shortname#palette.replace = airline#themes#generate_color_map(s:airline_a_replace, s:airline_b_replace, s:airline_c_replace)
 
 let s:airline_a_visual   = ['@guiblueL', '@guimono1', '@term256blueL', '@term256mono1']
 let s:airline_b_visual   = ['@guimono1', '@guiblueL', '@term256mono1', '@term256blueL']
-let s:airline_c_visual   = ['@guiblueD', '@guimono1', '@term256blueD', '@term256mono1']
+let s:airline_c_visual   = ['@guiblueL', '@guimono1', '@term256blueL', '@term256mono1']
 let g:airline#themes#@shortname#palette.visual = airline#themes#generate_color_map(s:airline_a_visual, s:airline_b_visual, s:airline_c_visual)
 
 let s:airline_a_inactive   = ['@guiblueD', '@guimono0', '@term256blueD', '@term256mono0']

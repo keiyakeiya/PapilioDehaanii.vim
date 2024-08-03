@@ -5,22 +5,22 @@ let g:airline#themes#papilio_dehaanii#palette = {}
 
 let s:airline_a_normal   = ['#398f93', '#191f25', '30', '234']
 let s:airline_b_normal   = ['#191f25', '#398f93', '234', '30']
-let s:airline_c_normal   = ['#265257', '#191f25', '23', '234']
+let s:airline_c_normal   = ['#398f93', '#191f25', '30', '234']
 let g:airline#themes#papilio_dehaanii#palette.normal = airline#themes#generate_color_map(s:airline_a_normal, s:airline_b_normal, s:airline_c_normal)
 
 let s:airline_a_insert   = ['#4a83d4', '#191f25', '68', '234']
 let s:airline_b_insert   = ['#191f25', '#4a83d4', '234', '68']
-let s:airline_c_insert   = ['#2e4c77', '#191f25', '25', '234']
+let s:airline_c_insert   = ['#4a83d4', '#191f25', '68', '234']
 let g:airline#themes#papilio_dehaanii#palette.insert = airline#themes#generate_color_map(s:airline_a_insert, s:airline_b_insert, s:airline_c_insert)
 
 let s:airline_a_replace   = ['#191f25', '#4a83d4', '234', '68']
 let s:airline_b_replace   = ['#4a83d4', '#191f25', '68', '234']
-let s:airline_c_replace   = ['#191f25', '#2e4c77', '234', '25']
+let s:airline_c_replace   = ['#191f25', '#4a83d4', '234', '68']
 let g:airline#themes#papilio_dehaanii#palette.replace = airline#themes#generate_color_map(s:airline_a_replace, s:airline_b_replace, s:airline_c_replace)
 
 let s:airline_a_visual   = ['#8cabd7', '#191f25', '110', '234']
 let s:airline_b_visual   = ['#191f25', '#8cabd7', '234', '110']
-let s:airline_c_visual   = ['#2e4c77', '#191f25', '25', '234']
+let s:airline_c_visual   = ['#8cabd7', '#191f25', '110', '234']
 let g:airline#themes#papilio_dehaanii#palette.visual = airline#themes#generate_color_map(s:airline_a_visual, s:airline_b_visual, s:airline_c_visual)
 
 let s:airline_a_inactive   = ['#2e4c77', '#000000', '25', '16']
