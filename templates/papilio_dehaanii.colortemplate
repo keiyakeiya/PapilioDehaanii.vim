@@ -90,8 +90,8 @@ CurSearch            monobg              magentaM          g=bold
 SignColumn           monofg              mono1
 SpecialKey           mono2               none
 NonText              mono2               none
-StatusLine           monobg              mono3             reverse,bold
-StatusLineNC         mono1               mono3             reverse
+StatusLine           monobg              mono3             bold
+StatusLineNC         mono1               mono3
 Title                tealM               none              g=bold
 ToolbarLine          none                mono1
 ToolbarButton        monofg              mono2             bold
