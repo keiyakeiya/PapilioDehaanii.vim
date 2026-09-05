@@ -224,3 +224,49 @@ let g:airline#themes#@shortname#palette.terminal.airline_error    = ['@guimonobg
 let g:airline#themes#@shortname#palette.commandline.airline_error = ['@guimonobg', '@guiredL', '@term256monobg', '@term256redL']
 
 endauxfile
+
+; lualine nvim-lualine/lualine.nvim
+auxfile lua/lualine/themes/@shortname.lua
+vim.scriptencoding = 'utf-8'
+
+-- lua/lualine/themes/@shortname.lua
+
+return {
+  normal = {
+    a = { bg = '@guitealM', fg = '@guimono1', gui = 'bold' },
+    b = { bg = '@guimono1', fg = '@guitealM', },
+    c = { bg = '@guitealM', fg = '@guimono1', },
+  },
+  insert = {
+    a = { bg = '@guiblueM', fg = '@guimono1', gui = 'bold' },
+    b = { bg = '@guimono1', fg = '@guiblueM', },
+    c = { bg = '@guiblueM', fg = '@guimono1', },
+  },
+  visual = {
+    a = { bg = '@guiblueL', fg = '@guimono1', gui = 'bold' },
+    b = { bg = '@guimono1', fg = '@guiblueL', },
+    c = { bg = '@guiblueL', fg = '@guimono1', },
+  },
+  replace = {
+    a = { bg = '@guimono1', fg = '@guiblueM', gui = 'bold' },
+    b = { bg = '@guiblueM', fg = '@guimono1', },
+    c = { bg = '@guimono1', fg = '@guiblueM', },
+  },
+  command = {
+    a = { bg = '@guitealM', fg = '@guimono1', gui = 'bold' },
+    b = { bg = '@guimono1', fg = '@guitealM', },
+    c = { bg = '@guimono1', fg = '@guitealD', },
+  },
+  inactive = {
+    a = { bg = '@guiblueD',  fg = '@guimono0', gui = 'bold' },
+    b = { bg = '@guimonobg', fg = '@guimono3', },
+    c = { bg = '@guiblueD',  fg = '@guimono0', },
+  },
+  terminal = {
+    a = { bg = '@guitealD',  fg = '@guimonobg', gui = 'bold' },
+    b = { bg = '@guimono1',  fg = '@guitealD', },
+    c = { bg = '@guimono3',  fg = '@guimono1', },
+  },
+}
+
+endauxfile
