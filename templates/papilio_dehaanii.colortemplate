@@ -233,39 +233,39 @@ vim.scriptencoding = 'utf-8'
 
 return {
   normal = {
-    a = { bg = '@guitealM', fg = '@guimono1', gui = 'bold' },
-    b = { bg = '@guimono1', fg = '@guitealM', },
-    c = { bg = '@guitealM', fg = '@guimono1', },
+    a = { bg = '@guimono1', fg = '@guitealM', gui = 'bold' },
+    b = { bg = '@guitealM', fg = '@guimono1', },
+    c = { bg = '@guimono1', fg = '@guitealM', },
   },
   insert = {
-    a = { bg = '@guiblueM', fg = '@guimono1', gui = 'bold' },
-    b = { bg = '@guimono1', fg = '@guiblueM', },
-    c = { bg = '@guiblueM', fg = '@guimono1', },
-  },
-  visual = {
-    a = { bg = '@guiblueL', fg = '@guimono1', gui = 'bold' },
-    b = { bg = '@guimono1', fg = '@guiblueL', },
-    c = { bg = '@guiblueL', fg = '@guimono1', },
-  },
-  replace = {
     a = { bg = '@guimono1', fg = '@guiblueM', gui = 'bold' },
     b = { bg = '@guiblueM', fg = '@guimono1', },
     c = { bg = '@guimono1', fg = '@guiblueM', },
   },
+  visual = {
+    a = { bg = '@guimono1', fg = '@guiblueL', gui = 'bold' },
+    b = { bg = '@guiblueL', fg = '@guimono1', },
+    c = { bg = '@guimono1', fg = '@guiblueL', },
+  },
+  replace = {
+    a = { bg = '@guiblueM', fg = '@guimono1', gui = 'bold' },
+    b = { bg = '@guimono1', fg = '@guiblueM', },
+    c = { bg = '@guiblueM', fg = '@guimono1', },
+  },
   command = {
-    a = { bg = '@guitealM', fg = '@guimono1', gui = 'bold' },
-    b = { bg = '@guimono1', fg = '@guitealM', },
-    c = { bg = '@guimono1', fg = '@guitealD', },
+    a = { bg = '@guimono1', fg = '@guitealM', gui = 'bold' },
+    b = { bg = '@guitealM', fg = '@guimono1', },
+    c = { bg = '@guitealD', fg = '@guimono1', },
   },
   inactive = {
-    a = { bg = '@guiblueD',  fg = '@guimono0', gui = 'bold' },
-    b = { bg = '@guimonobg', fg = '@guimono3', },
-    c = { bg = '@guiblueD',  fg = '@guimono0', },
+    a = { bg = '@guimono0', fg = '@guiblueD', gui = 'bold' },
+    b = { bg = '@guimono3', fg = '@guimonobg', },
+    c = { bg = '@guimono0', fg = '@guiblueD',  },
   },
   terminal = {
-    a = { bg = '@guitealD',  fg = '@guimonobg', gui = 'bold' },
-    b = { bg = '@guimono1',  fg = '@guitealD', },
-    c = { bg = '@guimono3',  fg = '@guimono1', },
+    a = { bg = '@guimonobg', fg = '@guitealD',  gui = 'bold' },
+    b = { bg = '@guitealD',  fg = '@guimono1', },
+    c = { bg = '@guimono1',  fg = '@guimono3', },
   },
 }
 
