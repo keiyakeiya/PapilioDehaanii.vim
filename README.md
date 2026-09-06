@@ -11,32 +11,64 @@
 - Color scheme for Vim and Neovim
   ![Neovim screenshot](https://github.com/keiyakeiya/PapilioDehaanii.vim/assets/75249966/c268f17d-7b12-4539-b987-926df94eff13)
 
-- [Airline](https://github.com/vim-airline/vim-airline) support
+- [vim-airline](https://github.com/vim-airline/vim-airline) support
   ![Airline-Normal](https://github.com/keiyakeiya/PapilioDehaanii.vim/assets/75249966/43d9a4ba-4a44-4f99-b259-9ddbcb252319)
   ![Airline-Insert](https://github.com/keiyakeiya/PapilioDehaanii.vim/assets/75249966/b46dacf5-0ed5-4ecf-8c68-30daf21b144c)
   ![Airline-Visual](https://github.com/keiyakeiya/PapilioDehaanii.vim/assets/75249966/fb245336-13c3-4063-a6b1-3efc63e4d42c)
   ![Airline-Command](https://github.com/keiyakeiya/PapilioDehaanii.vim/assets/75249966/02e225d9-86fe-44a8-9f79-5b2ee79b7bba)
   ![Airline-Replace](https://github.com/keiyakeiya/PapilioDehaanii.vim/assets/75249966/54604167-129a-40ed-8220-66391308e016)
   ![Airline-Inactive](https://github.com/keiyakeiya/PapilioDehaanii.vim/assets/75249966/c045abcf-f07f-40dc-bbaf-5a1c985a0b9f)
+- [lualine.nvim](https://github.com/nvim-lualine/lualine.nvim) support
 - Terminal color support
 
 ## Installation
 
-You can install this plugin using your favorite package manager.  
-For example, if you use dein, execute
+You can install this plugin using your favorite package manager.
+
+### example
+
+dein
 
 ```vim
 call dein#add('keiyakeiya/PapilioDehaanii.vim')
 ```
 
+lazy.nvim
+
+```lua
+{
+  'keiyakeiya/PapilioDehaanii.vim',
+  lazy = false,
+  config = function()
+    vim.cmd('colo papilio_dehaanii')
+  end,
+}
+```
+
 ## Usage
 
-```vim
+### vim
+
+```Vim
 colorscheme papilio_dehaanii
 ```
 
+### vim-airline
+
 ```vim
 AirlineTheme papilio_dehaanii
+" or
+let g:airline_theme = 'papilio_dehaanii'
+```
+
+### lualine
+
+```lua
+require('lualine').setup {
+  options = {
+    theme = 'papilio_dehaanii'
+  }
+}
 ```
 
 ## License
